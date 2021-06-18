@@ -2,10 +2,10 @@
   "name": "y",
   "version": "1.0.0",
   "description": "",
-  "main": "WSserver.js",
+  "main": "socket.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon WSserver"
+    "dev": "nodemon socket"
   },
   "repository": {
     "type": "git",
@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/sarthakagrawal927/slack-clone#readme",
   "dependencies": {
-    "ws": "^7.5.0"
+    "socket.io": "^4.1.2"
   }
 }
