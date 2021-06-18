@@ -1,0 +1,23 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "",
+  "main": "WSserver.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon WSserver"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarthakagrawal927/slack-clone.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sarthakagrawal927/slack-clone/issues"
+  },
+  "homepage": "https://github.com/sarthakagrawal927/slack-clone#readme",
+  "dependencies": {
+    "ws": "^7.5.0"
+  }
+}
