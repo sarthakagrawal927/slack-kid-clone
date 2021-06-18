@@ -1,10 +1,16 @@
-const http = require("http");
+const express = require("express");
 const socketio = require("socket.io");
+const app = express();
 
-const server = http.createServer((req, res) => {
-  res.end("I am connected");
+var server = app.listen(8000, () => {
+  console.log("success");
 });
 
-const io = socketio(server);
+const io = socketio(server, { cors: { origin: "*" } });
 
-server.listen(8000);
+io.on("connection", (socket, req) => {
+  socket.emit("welcome", "welcome to  websocket server");
+  socket.on("message", (msg) => {
+    console.log(msg);
+  });
+});
