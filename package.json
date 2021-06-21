@@ -2,10 +2,10 @@
   "name": "y",
   "version": "1.0.0",
   "description": "",
-  "main": "socket.js",
+  "main": "chat.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon socket"
+    "dev": "nodemon chat"
   },
   "repository": {
     "type": "git",
